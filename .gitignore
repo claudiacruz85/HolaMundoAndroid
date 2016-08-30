@@ -1,3 +1,65 @@
+# Creado por https://www.gitignore.io/api/android,java
+
+### ### Android
+# archivos de aplicación construida
+* .apk
+* .ap_
+
+# Archivos para el arte / máquina virtual Dalvik
+* .dex
+
+# archivos de clase Java
+*.clase
+
+# Los archivos generados
+compartimiento/
+GEN /
+fuera/
+
+archivos # Gradle
+.gradle /
+construir/
+
+# Archivo de configuración local (ruta SDK, etc.)
+local.properties
+
+carpeta # Proguard generada por Eclipse
+Proguard /
+
+# Archivos de registro
+*.Iniciar sesión
+
+# archivos temporales editor Android Estudio de Navegación
+.navegación/
+
+# Android Studio captura carpeta
+capturas /
+
+# Intellij
+* .iml
+.idea / workspace.xml
+.idea / bibliotecas
+
+# archivos de almacén de claves
+* .jks
+
+### ### Patch Android
+Gen-external-apklibs
+
+
+### Java ###
+*.clase
+
+# Herramientas móviles para Java (J2ME)
+.mtj.tmp /
+
+# # Paquete de archivos
+*.tarro
+*.guerra
+*.oreja
+
+# Registros de errores de la máquina virtual, ver http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid *
 *.iml
 .gradle
 /local.properties
